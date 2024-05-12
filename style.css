@@ -1,5 +1,5 @@
 
-/* Font Loading */
+
 @font-face {
     font-family: 'Cafe24Ssurround';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
@@ -7,10 +7,6 @@
     font-style: normal;
 }
 
-/* Global Styles */
-:root {
-    --primary-color: rgb(99, 49, 13);
-}
 
 html, body {
     height: 100%;
@@ -21,11 +17,10 @@ html, body {
     background-color: #FFFCF3;
 }
 
-/* Header Styles */
+
 .header {
     text-align: center;
     padding: 20px;
-    /* background-color: #6ed2aa; */
 }
 .time {
     color: #E1E3D9;
@@ -34,17 +29,15 @@ html, body {
     color: #7E686B;
 }
 
-/* Grid Container Styles */
 .grid-container {
     display: grid;
     grid-gap: 40px;
     padding: 40px;
-    /* margin: 40px;
-    background-color: #f9eec5; */
+    padding-top: 0px;
     border-radius: 80px;
 }
 
-/* Grid Item Styles */
+
 .grid-item {
     border-radius: 60px;
     padding: 50px;
@@ -58,7 +51,7 @@ h2 {
     margin-bottom: 50px;
 }
 
-/* Image Styles */
+
 .img {
     font-size: 30px;
 }
